@@ -57,6 +57,7 @@ public class OBMetaTask {
 
 				pw.print(
 					"{"+
+					"\"sys\":\"forge\"," +
 					"\"msg\":\""+player.getDisplayName().getString() + "\"," +
 				    "\"uuid\":\"" + player.getStringUUID() + "\"," +
 					"\"world\":\"" + world + "\"," +
